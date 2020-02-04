@@ -3,7 +3,7 @@
  * @param {string} str base
  * @returns {boolean}
  */
- function checkSpam(str, word) {
+ function checkSpam(str) {
 
    str = str.toUpperCase();
 
