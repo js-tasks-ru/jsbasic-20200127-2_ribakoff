@@ -4,4 +4,8 @@
  * @returns {Boolean}
  */
 function isEmpty(obj) {
+  for (ket in obj){
+    return false;
+  }
+  return true;
 }
